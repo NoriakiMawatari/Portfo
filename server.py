@@ -1,3 +1,9 @@
+'''
+<. venv/bin/activate> Start virtual enviroment
+<export FLASK_APP=server.py>
+<export FLASK_ENV=development>
+<flask run>'''
+
 from flask import Flask, render_template, request, redirect
 import csv
 
