@@ -8,7 +8,7 @@ from flask import Flask, render_template, request, redirect
 import csv
 
 app = Flask(__name__)
-print(__name__)
+print(f'Starting Noriaki`s {__name__}')
 
 
 @app.route('/')
